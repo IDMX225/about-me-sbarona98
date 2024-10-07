@@ -1,0 +1,38 @@
+body {
+    font-family: 'Franklin Gothic';
+    background-color:#A8EDB3 ;
+    color: #421C25;
+}
+
+h1 {
+    font-family: lobster;
+    font-size: 50pt;
+}
+h2, h3, h4, h4, h6 {
+    font-family: lobster;
+    font-style: 20pt;
+    
+}
+
+header {
+text-align: center;
+}
+
+#hero, footer {
+    background-color: #2E703B;
+    padding: 10px;
+    text-align: center;
+    color:#EDA8B8
+  
+
+   
+
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
