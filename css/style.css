@@ -7,9 +7,32 @@ h1 {
     font-family: lobster;
     font-size: 50pt;
 }
+header {
+    text-align: center;
+    }
+
+/* Hero Section*/
 #hero {
      font-size: 20pt;
      font: lobster;
+}
+#hero, footer {
+    background-color: #2E703B;
+    padding: 10px;
+    text-align: center;
+    color:#EDA8B8
+  
+
+}
+
+#hero img {
+    width: 300px;
+}
+
+
+/*Bio Section*/
+#bio {
+    text-align: center;
 }
 h2{
     font-family: lobster;
@@ -25,6 +48,16 @@ h6 {
     font-size: 25pt;
     margin-bottom: 10px;
 }
+
+/*Hobbies Section*/
+
+#hobbies{
+    background-color:#EDA8B8 ;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 0;
+}
+
 ul{
     list-style-position: inside;
     padding-left: 40px;
@@ -37,31 +70,19 @@ li{
     font-family: lora;
     font-size: 20px;
 }
-#hobbies{
-    background-color:#EDA8B8 ;
-    padding: 0px;
-    border-radius: 10px;
-    margin: 0;
-}
-header {
-text-align: center;
-}
 
-#hero, footer {
-    background-color: #2E703B;
-    padding: 10px;
+/*Gallery Section*/
+
+#gallery {
+    border: 2px #2E703B;
+
+}
+#gallery img{
+    max-width: 100%;
     text-align: center;
-    color:#EDA8B8
-  
-
-   
-
 }
 
-#hero img {
-    width: 300px;
-}
-
-#bio {
+#gallery figure{
     text-align: center;
+
 }
