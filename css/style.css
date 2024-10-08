@@ -1,19 +1,48 @@
 body {
-    font-family: 'Franklin Gothic';
+    font-family: lora;
     background-color:#A8EDB3 ;
     color: #421C25;
 }
-
 h1 {
     font-family: lobster;
     font-size: 50pt;
 }
-h2, h3, h4, h4, h6 {
+#hero {
+     font-size: 20pt;
+     font: lobster;
+}
+h2{
+    font-family: lobster;
+    font-size: 25pt;
+}
+h3,h4,h5 {
     font-family: lobster;
     font-style: 20pt;
-    
+    text-align: center;
 }
-
+h6 {
+    font-family: lobster;
+    font-size: 25pt;
+    margin-bottom: 10px;
+}
+ul{
+    list-style-position: inside;
+    padding-left: 40px;
+    line-height: 1.8;
+    text-align: left;
+    margin: 0;
+}
+li{
+    margin-bottom: 5px;
+    font-family: lora;
+    font-size: 20px;
+}
+#hobbies{
+    background-color:#EDA8B8 ;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 0;
+}
 header {
 text-align: center;
 }
