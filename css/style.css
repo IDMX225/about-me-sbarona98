@@ -56,6 +56,9 @@ h6 {
     padding: 0px;
     border-radius: 10px;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 ul{
@@ -72,7 +75,9 @@ li{
 }
 
 /*Gallery Section*/
-
+#gallery {
+    margin: 0 auto;
+} 
 #gallery img{
     display: block;
     max-width: 100%;
@@ -93,7 +98,7 @@ font-style: italic;
 
 /*Literature*/
 #lit {
-    border: 5px;px #EDA8B8;
+    border: 5px solid #EDA8B8;
     padding: 2rem;
     margin-bottom: 2rem;
     background-color: #92AD96;
@@ -107,4 +112,20 @@ font-style: italic;
 }
 #lit h2 {
     margin-top: 0;
+}
+
+@media screen and (min-width 60em) {
+    display:grid;
+    grid-template-columns: 2fr 1fr; 
+}
+#gallery figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+#lit {
+    columns: 40rem; /* Multi-columns */
+    max-width: 100%;
 }
