@@ -126,6 +126,21 @@ font-style: italic;
     margin-left: 1rem;
 }
 #lit {
-    columns: 40rem; /* Multi-columns */
+    columns: 40rem; 
     max-width: 100%;
+}
+@media screen and (min-width: 100em) {
+    #gallery {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+    #gallery h2 {
+        grid-column: 1 / -1; /
+    }
+    #gallery figure {
+        display: block; 
+    }
+    hr {
+        display: none;
+    }
 }
