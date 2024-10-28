@@ -145,3 +145,32 @@ font-style: italic;
         display: none;
     }
 }
+/* Video Section */
+#video {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#video figure {
+    display: inline-block;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#video iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#video figcaption {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    margin-top: 8px;
+    color: #555;
+}
