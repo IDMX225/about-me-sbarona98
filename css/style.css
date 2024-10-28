@@ -164,7 +164,9 @@ font-style: italic;
 
 #video iframe {
     width: 100%;
+    max-width: 350px;
     height: auto;
+    aspect-ratio: 9 / 16;
     border-radius: 8px;
 }
 
