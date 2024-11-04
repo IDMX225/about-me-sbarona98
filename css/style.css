@@ -140,7 +140,61 @@ li{
 #lit div p {
     margin-bottom: 1rem;
 }
-
+/* Contact Form Styling */
+#contact {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #2E703B;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-top: 10px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color: #EDA8B8;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #2E703B;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .send-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color:#EDA8B8 ; 
+  }
+  
 @media (max-width: 768px) {
     #lit div {
         grid-template-columns: 1fr;
