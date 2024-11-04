@@ -27,7 +27,7 @@ main {
 
 .navbar {
     background-color:#2E703B ;
-    color: #EDA8B8;
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -49,33 +49,38 @@ main {
 font-size: 1.2em;
 }
 /* navigation list */
+.navbar-links {
+   display: flex;
+   flex-direction: column;
+   padding: 2;
+}
 .navbar-links li {
     list-style: none;
-    display: block;
-    padding: 0.5em 0;
+    padding: 0 1rem;
 }
-
 /*  
  style all a tags in header 
  and then on hover
 */
 
 .navbar-links a {
-    color: whitesmoke;
-    background-color: #248833 ;
-    font-size: 2rem;
-    padding: 1rem 1.25 rem;
+    color: #15321b;
+    background-color:#92AD96;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+    border-radius: 10px;
+    margin: 0 0.5rem;
 }
 
 .navbar-links a:hover,
 .navbar-links a:focus {
     color: whitesmoke;
-    background-color: #EDA8B8;
-    filter: invert(1)
-    border-radius: 20px;
+    background-color:#2E703B; 
+    filter: invert(1);
+    border-radius: 10px;
     outline: none;
 }
 
@@ -86,15 +91,26 @@ such that no text wraps
 */
 
 
-@media screen (mid-width: 60rem) {
+@media screen and (min-width: 60rem) {
+    .navbar-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
+    }
+    
     .navbar {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .navbar ul {
+    .navbar-links {
         display: flex;
-        justify-content: space-between;
+        flex-direction: row; 
     }
+    .navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+   
 }
