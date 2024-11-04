@@ -9,7 +9,20 @@ html {
 */
 
 
+body {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
 /* add some padding back to rest of page */
+
+main {
+ padding: 2vw;
+ 
+
+}
 
 
 /* navbar */
