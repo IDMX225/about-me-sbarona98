@@ -61,7 +61,7 @@ font-size: 1.2em;
 
 .navbar-links a {
     color: whitesmoke;
-    background-attachment: #333 ;
+    background-color: #248833 ;
     font-size: 1.5rem;
     padding: 1rem 1.25 rem;
     letter-spacing: 2px;
@@ -69,7 +69,14 @@ font-size: 1.2em;
     display: inline-block;
 }
 
-
+.navbar-links a:hover,
+.navbar-links a:focus {
+    color: whitesmoke;
+    background-color: #EDA8B8;
+    filter: invert(1)
+    border-radius: 20px;
+    outline: none;
+}
 
 /* 
 media query for non-mobile nav bar
