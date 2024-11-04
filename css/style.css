@@ -1,7 +1,7 @@
 body {
     font-family: lora;
     background-color:#A8EDB3 ;
-    color: #421C25;
+    color: #60254e;
 }
 h1 {
     font-family: lobster;
@@ -17,10 +17,10 @@ header {
      font: lobster;
 }
 #hero, footer {
-    background-color: #2E703B;
+    background-color: #EDA8B8;
     padding: 10px;
     text-align: center;
-    color:#EDA8B8
+    color:#13a061;
   
 
 }
