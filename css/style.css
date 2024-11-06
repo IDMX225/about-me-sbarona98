@@ -1,80 +1,102 @@
 body {
     font-family: lora;
-    background-color:#A8EDB3 ;
+    background-color: #FFF0F5;
     color: #60254e;
 }
+
 h1 {
     font-family: lobster;
     font-size: 50pt;
 }
+
 header {
     text-align: center;
-    }
-
-/* Hero Section*/
-#hero {
-     font-size: 20pt;
-     font: lobster;
 }
+
+/* Hero Section */
+#hero {
+    font-size: 20pt;
+    font-family: lobster;
+}
+
 #hero, footer {
     background-color: #EDA8B8;
     padding: 10px;
     text-align: center;
-    color:#13a061;
+    color: #13a061;
     border-radius: 10px;
-  
-
 }
 
 #hero img {
     width: 300px;
 }
 
+/* Bio Section */
 
-/*Bio Section*/
 #bio {
     text-align: center;
 }
-h2{
+
+h2 {
     font-family: lobster;
     font-size: 25pt;
+
+
 }
-h3,h4,h5 {
-    font-family: lobster;
-    font-style: 20pt;
-    text-align: center;
-}
-h6 {
+/* Short Video */
+h3 {
     font-family: lobster;
     font-size: 25pt;
-    margin-bottom: 10px;
-    margin: 5px; 
-}
-
-/*Hobbies Section*/
-
-#hobbies{
-    background-color:#EDA8B8 ;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+.title {
+    font-family: lobster;
+    font-size: 22pt; 
+    font-weight: bold;
+    text-align: center;
+    color: #60254e;
+    margin: 10px 0;
 }
 
-ul{
+/* Hobbies Section */
+#hobbies {
+    background-color: #EDA8B8;
+    padding: 1rem; 
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 800px; 
+    text-align: center; 
+}
+
+#hobbies h4 {
+    font-family: lobster;
+    font-size: 25pt; 
+    color: #60254e;
+    margin-bottom: 0.5rem; 
+}
+
+#hobbies ul {
     list-style-position: inside;
-    padding-left: 40px;
+    padding: 0;
     line-height: 1.8;
-    text-align: left;
-    margin: 0;
+    text-align: left; 
+    margin: 0 auto;
+    max-width: 600px; 
 }
-li{
-    margin-bottom: 5px;
-    font-family: lora;
-    font-size: 20px;
+
+#hobbies ul li {
+    margin-bottom: 0.75rem;
+    font-family: 'Lora', serif;
+    font-size: 18px; 
+    color: #60254e;
+    font-weight: bold;
 }
+
+#hobbies ul li::marker {
+    color: #60254e; 
+    font-size: 1.2em; 
+}
+
 
 /*Gallery Section*/
 #gallery {
