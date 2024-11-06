@@ -126,21 +126,44 @@ li{
     background-color: #92AD96;
     border-radius: 10px;
     margin-top: 0;
-    max-width: 1200%;
+    max-width: 1200px; 
     margin-left: auto;
     margin-right: auto;
 }
 
 #lit div {
     display:grid;
-    grid-template-columns: repeat (3, 1fr);
-    gap: 1.5rem;
-    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 #lit div p {
     margin-bottom: 1rem;
 }
+@media (min-width: 1024px) {
+    #lit div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Dropcap styling */
+#lit div p::first-letter {
+    color: #2E703B; 
+    float: left;
+    font-size: 3em; 
+    margin-right: 0.1em; 
+    line-height: 0.85;
+    font-weight: bold; 
+    padding: 0.15em;
+    border: 2px solid #2E703B
+    background-color: #A8EDB3
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+#lit div p:first-of-type::first-letter {
+    color: #2E703B;
+}
+
 /* Contact Form Styling */
 #contact {
     max-width: 600px;
@@ -222,30 +245,6 @@ li{
     background-color: #EDA8B8; 
 }
 
-  
-@media (max-width: 768px) {
-    #lit div {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Dropcap styling */
-#lit div p::first-letter {
-    color: #2E703B; 
-    float: left;
-    font-size: 3em; 
-    margin-right: 0.1em; 
-    line-height: 0.85;
-    font-weight: bold; 
-    padding: 0.15em;
-    border: 2px solid #2E703B
-    background-color: #A8EDB3
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-}
-#lit div p:first-of-type::first-letter {
-    color: #2E703B;
-}
 
 
 
