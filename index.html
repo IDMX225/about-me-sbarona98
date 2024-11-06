@@ -142,40 +142,38 @@
 <section id="contact">
     <h2>Contact Me</h2>
     <form class="contact-form" action="#" method="post">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required>
-  
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
-  
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
-  
-    <!---Reply-->
-    <legend>Would you like a reply?</legend>
-    <fieldset>
-        <ul>
-            <li>
-                <label>
-                    <input type="radio" name="reply" value="yes" required>
-                    Yes, I would like a reply.
-                </label>
-            </li>
-            <li>
-                <label>
-                    <input type="radio" name="reply" value="no" required>
-                    No, thanks.
-                </label>
-            </li>
-        </ul>
-    </fieldset>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
 
-    <button type="submit" class="send-button">Send</button>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
 
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
+        <!-- Reply Section -->
+        <fieldset>
+            <legend>Would you like a reply?</legend>
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="reply" value="yes" required>
+                        Yes, I would like a reply.
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="reply" value="no" required>
+                        No, thanks.
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
 
+        <button type="submit" class="send-button">Send</button>
     </form>
-  </section>
+</section>
+
   
 </main>
 <footer>

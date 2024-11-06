@@ -198,12 +198,12 @@ li{
     justify-content: center;
 }
 
-.contact-form ul li {
+.contact-form ul li label {
     display: inline-block;
     margin-right: 20px;
     font-family: 'Lora', serif;
     font-size: 16px;
-    color: #2E703B;
+    color: #60254e;
 }
 
 .send-button {
