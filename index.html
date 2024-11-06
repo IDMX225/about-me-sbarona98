@@ -151,7 +151,29 @@
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="4" required></textarea>
   
-      <button type="submit" class="send-button">Send</button>
+    <!---Reply-->
+    <legend>Would you like a reply?</legend>
+    <fieldset>
+        <ul>
+            <li>
+                <label>
+                    <input type="radio" name="reply" value="yes" required>
+                    Yes, I would like a reply.
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="radio" name="reply" value="no" required>
+                    No, thanks.
+                </label>
+            </li>
+        </ul>
+    </fieldset>
+
+    <button type="submit" class="send-button">Send</button>
+
+
+
     </form>
   </section>
   
