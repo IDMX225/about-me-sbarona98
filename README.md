@@ -29,18 +29,19 @@ The website includes the following sections:
 
 ---
 
-## Features
+While building this website, I have learned and applied a range of web development skills, including:
 
-- **Responsive Design**
-- **Interactive Elements**
+1. **Git & GitHub**: To better understand making changes, updating, and saving, I used GitHub. I used branching, commits, merges, and pull requests to manage changes through VSCode. 
 
----
+2. **HTML5**: I learned about HTML elements and their structure, creating a semantic layout for the website. I used `header`, `footer`, `nav`, `section`, and other HTML5 elements to ensure accessibility and readability.
 
-## Technologies Used
+3. **CSS3**: My favorite part about this project was adjusting the styling to my liking using CSS. I updated the color scheme and ensured each section was organize by using different properties like Flexbox and CSS Grid for the layout. I also learned how to configure the Responsive design to ensure that my website adapts well to the sizes of different screens.
 
-- **HTML5**
-- **CSS3**
-- **Git & GitHub**
+4. **Interactive Elements**: I incorporated interactive features such as a contact form and hover effects, to create a smooth and user-friendly experience.
+
+5. **Netlify**: I deployed the website using Netlify, learning how to connect a GitHub repository to a live site and check for whatever needed updates. 
+
+
 
 ---
 
