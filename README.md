@@ -1,5 +1,7 @@
 # README
 # About Me Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/97c2ef26-bb6f-42ee-bc63-d15159cffe76/deploy-status)](https://app.netlify.com/sites/about-me-sbarona98/deploys)
+
 
 **A Website Built for my Web Development Course and to Showcase my Personality**
 
