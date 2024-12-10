@@ -1,7 +1,7 @@
 </body>
 </html>  and my CSS: body {
     font-family: lora;
-    background-color: #FFF0F5;
+    background-color: #fff0f5;
     color: #60254e;
 }
 
@@ -144,65 +144,61 @@ h3 {
 
 #gallery figcaption {
     position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust position to ensure the caption is perfectly centered */
-    background-color: rgba(156, 8, 32, 0.884); /* Semi-transparent background */
-    color: rgb(242, 247, 247); /* Dark color for the caption font */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(156, 8, 32, 0.884); 
+    color: rgb(242, 247, 247); 
     padding: 10px;
     text-align: center;
     font-style: italic;
-    opacity: 0; /* Hide caption initially */
-    transition: opacity 0.3s ease; /* Smooth transition for appearance */
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 #gallery figure:hover figcaption {
-    opacity: 1; /* Show caption on hover */
+    opacity: 1; 
 }
-/* Literature Section */
-#lit {
-    border: 5px solid #EDA8B8;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    background-color: #92AD96;
-    border-radius: 10px;
-    margin-top: 0;
-    max-width: 1200px; 
-    margin-left: auto;
-    margin-right: auto;
+/* Image Container */
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
-#lit div {
-    columns: 3;
-    column-gap: 20px;
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-#lit div p {
-    margin-bottom: 1rem;
-    text-align: justify;
-}
-@media (min-width: 1024px) {
-    #lit div {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+.image-container .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s 0.3s;
 }
 
-/* Dropcap styling */
-#lit div p::first-letter {
-    color: #2E703B; 
-    float: left;
-    font-size: 3em; 
-    margin-right: 0.1em; 
-    line-height: 0.85;
-    font-weight: bold; 
-    padding: 0.15em;
-    border: 2px solid #2E703B
-    background-color: #A8EDB3
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
+/* Hover effect */
+.image-container:hover img {
+    opacity: 0.6; /* Image becomes slightly opaque */
+    transform: scale(1.05); /* Slight zoom effect */
 }
-#lit div p:first-of-type::first-letter {
-    color: #2E703B;
+
+.image-container:hover .caption {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;
 }
 
 /* Contact Form Styling */
@@ -296,28 +292,3 @@ h3 {
     text-align: center;
     margin: 2rem 0;
 }
-  and my nav.css: /* make scrolling smooth */
-html {
-    scroll-behavior: smooth;
-}
-
-/* 
- get rid of padding & sizing on body so
- header is at top
-*/
-
-
-body {
-box-sizing: border-box;
-padding: 0;
-margin: 0;
-
-}
-
-/* add some padding back to rest of page */
-
-main {
- padding: 2vw;
- 
-}
-
