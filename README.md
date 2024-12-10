@@ -42,9 +42,16 @@ While building this website, I have learned and applied a range of web developme
 5. **Netlify**: I deployed the website using Netlify, learning how to connect a GitHub repository to a live site and check for whatever needed updates. 
 
 
+## Challenges
+One challenge I faced along the way was the responsive navigation bar. For some reason it took me a long time to finally get it right and I think I still have room for improvement. Another challenge was going back and forth between the index.html and the style.css file. Sometimes my files did not align so it took me a long time to figure out what I overlooked. The many mistakes I have made along the way grant me a path to success, as mistakes are the best way to learn! 
+
 
 ---
 
 
+# Sources
+1. https://www.youtube.com/watch?v=SIzi9z8mrTk
+2. https://webdesign.tutsplus.com/how-to-create-different-css-hover-effects-from-scratch--cms-34222t#toc-ta0s-revealing-swipe-css-hover-effect
+3. https://www.bing.com/search?q=css+hover+effects+mozilla&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=css+hover+effects+mozilla&sc=8-25&sk=&cvid=9C1F37BBB2FF4E6A87BF5D47A2D4CADD&ghsh=0&ghacc=0&ghpl= 
 
 Salma Barona

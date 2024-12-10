@@ -16,6 +16,7 @@ main {
 .nav {
     border-bottom: 1px solid #d3d3d3; 
     position: relative;
+    z-index: 1; 
 }
 
 .nav__checkbox {
@@ -48,8 +49,10 @@ main {
     position: absolute;
     top: 60px;
     right: 10px;
-    background-color: #930c37;
-    width: 100px; 
+    background-color: #EDA8B8;
+    width: 100px;
+    border-radius: 5px;  
+    z-index:3;
 }
 
 .nav__menu li {
@@ -67,11 +70,11 @@ main {
 }
 
 .nav__menu a:hover {
-    background-color: #EDA8B8; /* Add hover effect */
+    background-color: #EDA8B8;
 }
 
 .nav__checkbox:checked ~ .nav__menu {
-    display: flex; /* Show menu when checkbox is checked */
+    display: flex; 
 }
 
 /* Navbar with logo and links */
@@ -106,21 +109,21 @@ main {
 /* Media Queries */
 @media (max-width: 768px) {
     .navbar-links ul {
-        display: none; /* Hide menu for small screens */
+        display: none;
     }
 
     .navbar .nav__menu {
         flex-direction: column;
-        display: none; /* Hide menu for small screens */
-        position: fixed;  /* Make the menu stick to the top of the screen */
+        display: none; 
+        position: fixed;  
         top: 0;
         left: 0;
         height: 100%;
-        width: 250px;  /* Increase width for mobile view */
+        width: 250px; 
     }
 
     .nav__checkbox:checked + label + .nav__menu {
-        display: flex; /* Show menu when checkbox is checked */
+        display: flex;
     }
 
     .navbar-links {
@@ -136,17 +139,17 @@ main {
 /* Desktop view */
 @media only screen and (min-width: 560px) {
     .nav__toggle {
-        display: none; /* Hide the toggle button on larger screens */
+        display: none;
     }
 
     .nav__menu {
         flex-direction: row;
-        display: flex; /* Show menu for desktop */
-        position: static;  /* Make it static for desktop */
+        display: flex;
+        position: static;
         width: auto;
     }
 
     .nav__menu li {
-        display: inline-block;  /* Align items horizontally */
+        display: inline-block;
     }
 }
