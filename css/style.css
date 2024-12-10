@@ -1,4 +1,5 @@
-body {
+</body>
+</html>  and my CSS: body {
     font-family: lora;
     background-color: #FFF0F5;
     color: #60254e;
@@ -123,41 +124,29 @@ h3 {
     color: whitesmoke;
 }
 /*Gallery Section*/
+#gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
 #gallery figure {
-    position: relative;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 #gallery img {
+    width: 100%;
+    height: auto;
     display: block;
-    max-width: 100%;
-    margin: 0 auto;
-    transition: opacity 0.3s ease, box-shadow 0.3s ease;
 }
-
-#gallery img:hover {
-    opacity: .6; /* Make the image a little opaque */
-    box-shadow: 0 4px 10px rgba(156, 8, 32, 0.884);
-}
-
-#gallery figcaption {
-    position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust position to ensure the caption is perfectly centered */
-    background-color:  rgba(156, 8, 32, 0.884); /* Semi-transparent background */
-    color: rgb(242, 247, 247); /* Dark color for the caption font */
-    padding: 10px;
-    text-align: center;
-    font-style: italic;
-    opacity: 0; /* Hide caption initially */
-    transition: opacity 0.3s ease; /* Smooth transition for appearance */
-}
-
-#gallery figure:hover figcaption {
-    opacity: 1; /* Sh
-
 
 @media (min-width: 768px) {
     #gallery figure {
@@ -312,5 +301,29 @@ h3 {
 #video {
     text-align: center;
     margin: 2rem 0;
+}
+  and my nav.css: /* make scrolling smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 
+ get rid of padding & sizing on body so
+ header is at top
+*/
+
+
+body {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
+/* add some padding back to rest of page */
+
+main {
+ padding: 2vw;
+ 
 }
 
