@@ -70,7 +70,7 @@ main {
 }
 
 .nav__menu a:hover {
-    background-color: #EDA8B8;
+    background-color: #930c37;
 }
 
 .nav__checkbox:checked ~ .nav__menu {

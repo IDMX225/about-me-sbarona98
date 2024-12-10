@@ -240,16 +240,17 @@ body {
 }
 
 #lit h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #490a1e; 
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 #lit p {
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 1.6;
     margin-bottom: 1.2rem;
+    font-weight: bold;
 }
 
 #lit ul {
@@ -258,7 +259,8 @@ body {
 }
 
 #lit li {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.2rem;
+    font-size:1.5rem;
 }
 
 /* Link styling */
@@ -302,7 +304,7 @@ body {
 /* Code Block */
 #lit pre {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 2rem;
     border-radius: 8px;
     font-family: 'Courier New', monospace;
