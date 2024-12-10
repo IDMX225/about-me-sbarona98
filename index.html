@@ -14,26 +14,43 @@
     <!-- CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/your/styles.css">
+
 </head>
 
 
 
 <body>
 <header>
-    <nav class="navbar">
-        <div class="logo">
+    <div class="navbar">
+        <div class="logo"><img src="logo/favicon-96x96.png" alt="logo"></div>
             <link rel="icon" href="logo/favicon-96x96.png" type="image/png">
             <h1>Web Dev I</h1>
         </div>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#bio">Bio</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#lit">Blog</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </div>
+      
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+        <label for="nav__checkbox" class="nav__toggle">
+          
+            <svg class="menu" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.75 7C20.75 7.41421 20.4142 7.75 20 7.75L4 7.75C3.58579 7.75 3.25 7.41421 3.25 7C3.25 6.58579 3.58579 6.25 4 6.25L20 6.25C20.4142 6.25 20.75 6.58579 20.75 7Z" fill="#1C274C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.75 12C20.75 12.4142 20.4142 12.75 20 12.75L4 12.75C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25L20 11.25C20.4142 11.25 20.75 11.5858 20.75 12Z" fill="#1C274C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.75 17C20.75 17.4142 20.4142 17.75 20 17.75L4 17.75C3.58579 17.75 3.25 17.4142 3.25 17C3.25 16.5858 3.58579 16.25 4 16.25L20 16.25C20.4142 16.25 20.75 16.5858 20.75 17Z" fill="#1C274C"/>
+            </svg>
+            <svg class="close" width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C21.5093 4.43821 21.8356 5.80655 21.9449 8" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+        </label>
+        
+        <ul class="nav__menu">
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#lit">Blog</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
     </nav>
+    </nav>
+    
 </header>
 
 <main>
@@ -62,7 +79,7 @@
         <h3>A Short Video...</h3>
         <figure>
             <iframe id="myVideo" width="315" height="560" src="https://www.youtube.com/embed/pqYFVWTRhC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <figcaption>This is a short video my cat who loves to go on walks!</figcaption>
+            <figcaption>This is a short video of my cat who loves to go on walks!</figcaption>
         </figure>
     </section>
 
@@ -146,12 +163,7 @@
               </p>
               <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
             
-            <h3>Resources:</h3>
-            <ul>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover">:hover</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition">MDN Web Docs: CSS Transition</a></li>
-                <li><a href="https://www.w3schools.com/css/css3_transitions.asp">W3Schools: CSS Transitions</a></li>
-            </ul>
+
         </div>
     </article>
 
