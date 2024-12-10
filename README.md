@@ -28,6 +28,14 @@ The website includes the following sections:
 - **Contact Form**
 
 ---
+## Color Schemes
+Here are the main colors used in the design of this website:
+
+- **Primary Color**: ![#930c37](https://www.colorhexa.com/930c37.png) `#930c37` (Deep Red)
+- **Secondary Color**: ![#EDA8B8](https://www.colorhexa.com/eda8b8.png) `#EDA8B8` (Soft Pink)
+- **Accent Color**: ![#D95275](https://www.colorhexa.com/d95275.png) `#D95275` (Bright Pink)
+- **Background Color**: ![#FFFFFF](https://www.colorhexa.com/ffffff.png) `#FFFFFF` (White)
+- **Text Color**: ![#60254e](https://www.colorhexa.com/60254e.png) `#60254e` (Dark Purple)
 
 While building this website, I have learned and applied a range of web development skills, including:
 
@@ -53,5 +61,6 @@ One challenge I faced along the way was the responsive navigation bar. For some 
 1. https://www.youtube.com/watch?v=SIzi9z8mrTk
 2. https://webdesign.tutsplus.com/how-to-create-different-css-hover-effects-from-scratch--cms-34222t#toc-ta0s-revealing-swipe-css-hover-effect
 3. https://www.bing.com/search?q=css+hover+effects+mozilla&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=css+hover+effects+mozilla&sc=8-25&sk=&cvid=9C1F37BBB2FF4E6A87BF5D47A2D4CADD&ghsh=0&ghacc=0&ghpl= 
+4. https://penpot.app/blog/how-to-create-interactive-image-hover-effects-with-css/
 
 Salma Barona
