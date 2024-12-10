@@ -1,293 +1,290 @@
-</body>
-</html>  and my CSS: body {
-    font-family: lora;
+body {
+          font-family: lora;
     background-color: #fff0f5;
-    color: #60254e;
-}
-h1 {
-    font-family: lobster;
-    font-size: 50pt;
-}
+          color: #60254e; 
+      }
+      h1 {
+          font-family: lobster;
+          font-size: 50pt;
+      }
 
-header {
-    text-align: center;
-}
+      header {
+          text-align: center;
+      }
 
-/* Hero Section */
-#hero {
-    font-size: 20pt;
-    font-family: lobster;
-}
+      /* Hero Section */
+      #hero {
+          font-size: 20pt;
+          font-family: lobster;
+      }
 
-#hero, footer {
-    background-color: #EDA8B8;
-    padding: 10px;
-    text-align: center;
-    color: #13a061;
-    border-radius: 10px;
-}
+      #hero, footer {
+          background-color: #EDA8B8;
+          padding: 10px;
+          text-align: center;
+          color: #13a061;
+          border-radius: 10px;
+      }
 
-#hero img {
-    width: 300px;
-}
+      #hero img {
+          width: 300px;
+      }
 
-/* Bio Section */
+      /* Bio Section */
 
-#bio {
-    text-align: center;
-}
+      #bio {
+          text-align: center;
+      }
 
-h2 {
-    font-family: lobster;
-    font-size: 25pt;
-
-
-}
-/* Short Video */
-h3 {
-    font-family: lobster;
-    font-size: 25pt;
-    display: flex;
-}
-.title {
-    font-family: lobster;
-    font-size: 22pt; 
-    font-weight: bold;
-    text-align: center;
-    color: #60254e;
-    margin: 10px 0;
-}
-
-/* Hobbies Section */
-#hobbies {
-    background-color: #EDA8B8;
-    padding: 1rem; 
-    border-radius: 10px;
-    margin: 0 auto;
-    max-width: 800px; 
-    text-align: center; 
-}
-
-#hobbies h4 {
-    font-family: lobster;
-    font-size: 25pt; 
-    color: #60254e;
-    margin-bottom: 0.5rem; 
-}
-
-#hobbies ul {
-    list-style-position: inside;
-    padding: 0;
-    line-height: 1.8;
-    text-align: left; 
-    margin: 0 auto;
-    max-width: 600px; 
-}
-
-#hobbies ul li {
-    margin-bottom: 0.75rem;
-    font-family: 'Lora', serif;
-    font-size: 18px; 
-    color: #60254e;
-    font-weight: bold;
-}
-
-#hobbies ul li::marker {
-    color: #60254e; 
-    font-size: 1.2em; 
-}
-
-#video figure {
-    display: inline-block;
-    width: 100%;
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: #2E703B;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#video iframe {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
-    aspect-ratio: 9 / 16;
-    border-radius: 8px;
-}
-
-#video figcaption {
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    margin-top: 8px;
-    color: whitesmoke;
-}
-/*Gallery Section*/
-#gallery figure {
-    flex: 1;
-    margin: 10px;
-    position: relative; /* Make sure the figcaption is positioned correctly */
-}
-
-#gallery img {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-    transition: opacity 0.3s ease, box-shadow 0.3s ease;
-}
-
-#gallery img:hover {
-    opacity: .6; /* Make the image a little opaque */
-    box-shadow: 0 4px 10px rgba(156, 8, 32, 0.884);
-}
-
-#gallery figcaption {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: rgba(156, 8, 32, 0.884); 
-    color: rgb(242, 247, 247); 
-    padding: 10px;
-    text-align: center;
-    font-style: italic;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-#gallery figure:hover figcaption {
-    opacity: 1; 
-}
-/* Image Container */
-.image-container {
-    position: relative;
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.image-container .caption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0s 0.3s;
-}
-
-/* Hover effect */
-.image-container:hover img {
-    opacity: 0.6; /* Image becomes slightly opaque */
-    transform: scale(1.05); /* Slight zoom effect */
-}
-
-.image-container:hover .caption {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.3s ease;
-}
-
-/* Contact Form Styling */
-#contact {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 2px solid #2E703B;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-
-.contact-form label {
-    margin-top: 10px;
-    font-family: 'Lora', serif;
-    font-weight: bold;
-    color: #EDA8B8;
-}
-
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    color: #2E703B;
-}
-
-.contact-form textarea {
-    resize: vertical;
-}
+      h2 {
+          font-family: lobster;
+          font-size: 25pt;
 
 
-.contact-form fieldset {
-    border: none;
-    width: 100%;
-    margin: 15px 0;
-    text-align: center; 
+      }
+      /* Short Video */
+      h3 {
+          font-family: lobster;
+          font-size: 25pt;
+          display: flex;
+      }
+      .title {
+          font-family: lobster;
+          font-size: 22pt; 
+          font-weight: bold;
+          text-align: center;
+          color: #60254e;
+          margin: 10px 0;
+      }
 
-}
+      /* Hobbies Section */
+      #hobbies {
+          background-color: #EDA8B8;
+          padding: 1rem; 
+          border-radius: 10px;
+          margin: 0 auto;
+          max-width: 800px; 
+          text-align: center; 
+      }
 
-.contact-form ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
+      #hobbies h4 {
+          font-family: lobster;
+          font-size: 25pt; 
+          color: #60254e;
+          margin-bottom: 0.5rem; 
+      }
 
-.contact-form ul li label {
-    display: inline-block;
-    margin-right: 20px;
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    color: #60254e;
-}
+      #hobbies ul {
+          list-style-position: inside;
+          padding: 0;
+          line-height: 1.8;
+          text-align: left; 
+          margin: 0 auto;
+          max-width: 600px; 
+      }
 
-.send-button {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    cursor: pointer;
-}
+      #hobbies ul li {
+          margin-bottom: 0.75rem;
+          font-family: 'Lora', serif;
+          font-size: 18px; 
+          color: #60254e;
+          font-weight: bold;
+      }
 
-.send-button:hover {
-    background-color: #EDA8B8; 
-}
+      #hobbies ul li::marker {
+          color: #60254e; 
+          font-size: 1.2em; 
+      }
 
+      #video figure {
+          display: inline-block;
+          width: 100%;
+          max-width: 640px;
+          margin: 0 auto;
+          padding: 10px;
+          background-color: #2E703B;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
 
+      #video iframe {
+          width: 100%;
+          max-width: 350px;
+          height: auto;
+          aspect-ratio: 9 / 16;
+          border-radius: 8px;
+      }
 
-/* Video Section */
-#video {
-    text-align: center;
-    margin: 2rem 0;
-}
+      #video figcaption {
+          font-family: 'Lora', serif;
+          font-size: 16px;
+          margin-top: 8px;
+          color: whitesmoke;
+      }
+      /*Gallery Section*/
+      #gallery figure {
+          flex: 1;
+          margin: 10px;
+          position: relative; /* Make sure the figcaption is positioned correctly */
+      }
+
+      #gallery img {
+          display: block;
+          max-width: 100%;
+          margin: 0 auto;
+          transition: opacity 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      #gallery img:hover {
+          opacity: .6; 
+          box-shadow: 0 4px 10px rgba(156, 8, 32, 0.884);
+      }
+
+      #gallery figcaption {
+          position: absolute;
+          top: 50%; 
+          left: 50%; 
+          transform: translate(-50%, -50%); 
+          background-color: rgba(156, 8, 32, 0.884); 
+          color: rgb(242, 247, 247); 
+          padding: 10px;
+          text-align: center;
+          font-style: italic;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+      }
+
+      #gallery figure:hover figcaption {
+          opacity: 1; 
+      }
+
+      /* Image Container */
+      .image-container {
+          position: relative;
+          width: 100%;
+          max-width: 300px;
+          margin: 0 auto;
+      }
+
+      .image-container img {
+          width: 100%;
+          height: auto;
+          display: block;
+          transition: opacity 0.3s ease, transform 0.3s ease;
+      }
+
+      .image-container .caption {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+          color: white;
+          text-align: center;
+          padding: 1rem;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.3s ease, visibility 0s 0.3s;
+      }
+
+      /* Hover effect */
+      .image-container:hover img {
+          opacity: 0.6;
+          transform: scale(1.05); 
+      }
+
+      .image-container:hover .caption {
+          opacity: 1;
+          visibility: visible;
+          transition: opacity 0.3s ease;
+      }
+
+      /* Contact Form Styling */
+      #contact {
+          max-width: 600px;
+          margin: 20px auto;
+          padding: 20px;
+          border: 2px solid #2E703B;
+          border-radius: 10px;
+          background-color: #f9f9f9;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .contact-form {
+          display: flex;
+          flex-direction: column;
+          align-items: center; 
+      }
+
+      .contact-form label {
+          margin-top: 10px;
+          font-family: 'Lora', serif;
+          font-weight: bold;
+          color: #EDA8B8;
+      }
+
+      .contact-form input[type="text"],
+      .contact-form input[type="email"],
+      .contact-form textarea {
+          width: 100%;
+          padding: 10px;
+          margin-top: 5px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-family: 'Lora', serif;
+          font-size: 16px;
+          color: #2E703B;
+      }
+
+      .contact-form textarea {
+          resize: vertical;
+      }
+
+      .contact-form fieldset {
+          border: none;
+          width: 100%;
+          margin: 15px 0;
+          text-align: center; 
+      }
+
+      .contact-form ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+      }
+
+      .contact-form ul li label {
+          display: inline-block;
+          margin-right: 20px;
+          font-family: 'Lora', serif;
+          font-size: 16px;
+          color: #60254e;
+      }
+
+      .send-button {
+          margin-top: 15px;
+          padding: 10px 20px;
+          background-color: #333;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          font-family: 'Lora', serif;
+          font-size: 16px;
+          cursor: pointer;
+      }
+
+      .send-button:hover {
+          background-color: #EDA8B8; 
+      }
+
+      /* Video Section */
+      #video {
+          text-align: center;
+          margin: 2rem 0;
+      }
+

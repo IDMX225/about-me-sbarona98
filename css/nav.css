@@ -81,9 +81,7 @@ font-size: 1.2em;
 
 /* 
 media query for non-mobile nav bar
-min-width set to width of nav elements 
-such that no text wraps 
-*/
+min-width set to width of nav elements*/
 
 
 @media screen and (min-width: 60rem) {
@@ -108,4 +106,14 @@ such that no text wraps
     justify-content: space-around;
 }
    
+}
+
+
+
+/* New favicon styling */
+.favicon {
+    width: 40px; 
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle; 
 }
